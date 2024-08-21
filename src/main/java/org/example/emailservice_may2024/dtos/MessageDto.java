@@ -1,11 +1,12 @@
-package org.example.emailservice.Dtos;
+package org.example.emailservice_may2024.dtos;
+
 
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter
 @Setter
-public class SendEmailMessageDto {
+@Getter
+public class MessageDto {
     private String to;
     private String from;
     private String subject;
